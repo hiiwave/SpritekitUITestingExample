@@ -43,9 +43,11 @@
 }
 
 - (void)initAccessibility {
-  if (_accessibleElements.count > 0) return;
-  for (SKSpriteNode* sprite in _testableNodes) {
-    UIAccessibilityElement* accessElement = [[UIAccessibilityElement alloc] initWithAccessibilityContainer:self.view];
+  if (_accessibleElements.count > 0)
+    return;
+  for (SKSpriteNode *sprite in _testableNodes) {
+    UIAccessibilityElement *accessElement = [[UIAccessibilityElement alloc]
+        initWithAccessibilityContainer:self.view];
     CGRect frame = sprite.frame;
     frame.origin = [self.view convertPoint:frame.origin fromScene:self];
     frame.origin.y -= frame.size.height;

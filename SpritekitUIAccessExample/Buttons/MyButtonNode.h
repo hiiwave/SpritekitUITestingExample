@@ -10,7 +10,6 @@
 
 @protocol MyButtonNodeDelegate;
 
-
 @interface MyButtonNode : SKSpriteNode
 
 @property(nonatomic, nullable) id<MyButtonNodeDelegate> delegate;
@@ -18,9 +17,9 @@
 
 @end
 
+@protocol MyButtonNodeDelegate <NSObject>
 
-@protocol MyButtonNodeDelegate<NSObject>
-
-- (void)button:(MyButtonNode *_Nonnull)button touchBegan:(UITouch *_Nonnull)touch;
+- (void)button:(MyButtonNode *_Nonnull)button
+    touchBegan:(UITouch *_Nonnull)touch;
 
 @end

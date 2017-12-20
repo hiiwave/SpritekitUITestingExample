@@ -6,9 +6,9 @@
 //  Copyright © 2017 pong. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <SpriteKit/SpriteKit.h>
 #import <GameplayKit/GameplayKit.h>
+#import <SpriteKit/SpriteKit.h>
+#import <UIKit/UIKit.h>
 
 @interface GameViewController : UIViewController
 

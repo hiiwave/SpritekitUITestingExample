@@ -9,7 +9,6 @@
 #import "MyButtonNode.h"
 #import "MyButtonLabel.h"
 
-
 @implementation MyButtonNode
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {

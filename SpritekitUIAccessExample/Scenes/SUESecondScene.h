@@ -7,8 +7,8 @@
 //
 
 @import SpriteKit;
-#import <Foundation/Foundation.h>
 #import "SUEScene.h"
+#import <Foundation/Foundation.h>
 
 @interface SUESecondScene : SUEScene
 

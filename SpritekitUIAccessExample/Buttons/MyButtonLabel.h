@@ -11,4 +11,3 @@
 @interface MyButtonLabel : SKLabelNode
 
 @end
-

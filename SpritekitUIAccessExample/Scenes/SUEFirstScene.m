@@ -21,12 +21,11 @@
   _label = (SKLabelNode *)[self childNodeWithName:@"//helloLabel"];
   _label.alpha = 0.0;
   [_label runAction:[SKAction fadeInWithDuration:2.0]];
-  
-  
+
   MyButtonNode *nextBtn = (MyButtonNode *)[self childNodeWithName:@"//nextBtn"];
   nextBtn.delegate = self;
   nextBtn.labelText = @"NEXT";
-  
+
   [self addTestableNodes];
 }
 
@@ -38,12 +37,12 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-//  UITouch *touch = [touches anyObject];
-//  SKNode *touchedNode = [self nodeAtPoint:[touch locationInNode:self]];
-//  if ([touchedNode.name isEqual:@"nextBtn"]) {
-//    NSLog(@"touchedNode.class is %@", touchedNode.class);
-//    [self transitToSecondScene];
-//  }
+  //  UITouch *touch = [touches anyObject];
+  //  SKNode *touchedNode = [self nodeAtPoint:[touch locationInNode:self]];
+  //  if ([touchedNode.name isEqual:@"nextBtn"]) {
+  //    NSLog(@"touchedNode.class is %@", touchedNode.class);
+  //    [self transitToSecondScene];
+  //  }
 
   // Run 'Pulse' action from 'Actions.sks'
   [_label runAction:[SKAction actionNamed:@"Pulse"] withKey:@"fadeInOut"];
@@ -63,17 +62,4 @@
   }
 }
 
-
 @end
-
-
-
-
-
-
-
-
-
-
-
-

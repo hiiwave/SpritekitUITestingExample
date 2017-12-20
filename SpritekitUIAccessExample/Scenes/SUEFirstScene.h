@@ -6,13 +6,13 @@
 //  Copyright © 2017 pong. All rights reserved.
 //
 
-#import <SpriteKit/SpriteKit.h>
-#import <GameplayKit/GameplayKit.h>
 #import "SUEScene.h"
+#import <GameplayKit/GameplayKit.h>
+#import <SpriteKit/SpriteKit.h>
 
 @interface SUEFirstScene : SUEScene
 
-@property (nonatomic) NSMutableArray<GKEntity *> *entities;
-@property (nonatomic) NSMutableDictionary<NSString*, GKGraph *> *graphs;
+@property(nonatomic) NSMutableArray<GKEntity *> *entities;
+@property(nonatomic) NSMutableDictionary<NSString *, GKGraph *> *graphs;
 
 @end

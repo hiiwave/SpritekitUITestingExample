@@ -6,12 +6,12 @@
 //  Copyright © 2017 pong. All rights reserved.
 //
 
-#import <SpriteKit/SpriteKit.h>
 #import <GamePlayKit/GamePlayKit.h>
+#import <SpriteKit/SpriteKit.h>
 
 #import "MyButtonNode.h"
 
-@interface SUEScene : SKScene<MyButtonNodeDelegate>
+@interface SUEScene : SKScene <MyButtonNodeDelegate>
 
 @property(nonatomic) NSMutableArray *testableNodes;
 @property(nonatomic) NSMutableArray *accessibleElements;

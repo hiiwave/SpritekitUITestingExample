@@ -13,7 +13,7 @@
 - (void)sceneDidLoad {
   [super sceneDidLoad];
   [self.testableNodes addObject:[self childNodeWithName:@"//lastBtn"]];
-  
+
   MyButtonNode *lastBtn = (MyButtonNode *)[self childNodeWithName:@"//lastBtn"];
   lastBtn.delegate = self;
   lastBtn.labelText = @"LAST";
@@ -23,7 +23,7 @@
   UITouch *touch = [touches anyObject];
   SKNode *touchedNode = [self nodeAtPoint:[touch locationInNode:self]];
   if ([touchedNode.name isEqual:@"lastBtn"]) {
-//    [self transitToFirstScene];
+    //    [self transitToFirstScene];
   }
 }
 
