@@ -12,9 +12,9 @@
 		063395FC1FE90CB3001918CC /* SUESecondScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 063395FB1FE90CB3001918CC /* SUESecondScene.m */; };
 		06666EA81FE8BB4D00D265CF /* SUEScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 06666EA71FE8BB4D00D265CF /* SUEScene.m */; };
 		06A59E1C1FE8A35100DB40CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E1B1FE8A35100DB40CF /* AppDelegate.m */; };
-		06A59E1E1FE8A35100DB40CF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E1D1FE8A35100DB40CF /* GameScene.sks */; };
+		06A59E1E1FE8A35100DB40CF /* SUEFirstScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E1D1FE8A35100DB40CF /* SUEFirstScene.sks */; };
 		06A59E201FE8A35100DB40CF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E1F1FE8A35100DB40CF /* Actions.sks */; };
-		06A59E231FE8A35100DB40CF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E221FE8A35100DB40CF /* GameScene.m */; };
+		06A59E231FE8A35100DB40CF /* SUEFirstScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E221FE8A35100DB40CF /* SUEFirstScene.m */; };
 		06A59E261FE8A35100DB40CF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E251FE8A35100DB40CF /* GameViewController.m */; };
 		06A59E291FE8A35100DB40CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E271FE8A35100DB40CF /* Main.storyboard */; };
 		06A59E2B1FE8A35100DB40CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E2A1FE8A35100DB40CF /* Assets.xcassets */; };
@@ -88,10 +88,10 @@
 		06A59E171FE8A35100DB40CF /* SpritekitUIAccessExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritekitUIAccessExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A59E1A1FE8A35100DB40CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06A59E1B1FE8A35100DB40CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		06A59E1D1FE8A35100DB40CF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		06A59E1D1FE8A35100DB40CF /* SUEFirstScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SUEFirstScene.sks; sourceTree = "<group>"; };
 		06A59E1F1FE8A35100DB40CF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		06A59E211FE8A35100DB40CF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		06A59E221FE8A35100DB40CF /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		06A59E211FE8A35100DB40CF /* SUEFirstScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUEFirstScene.h; sourceTree = "<group>"; };
+		06A59E221FE8A35100DB40CF /* SUEFirstScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUEFirstScene.m; sourceTree = "<group>"; };
 		06A59E241FE8A35100DB40CF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		06A59E251FE8A35100DB40CF /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		06A59E281FE8A35100DB40CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -131,9 +131,9 @@
 		06666EB01FE8BB5500D265CF /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				06A59E1D1FE8A35100DB40CF /* GameScene.sks */,
-				06A59E211FE8A35100DB40CF /* GameScene.h */,
-				06A59E221FE8A35100DB40CF /* GameScene.m */,
+				06A59E1D1FE8A35100DB40CF /* SUEFirstScene.sks */,
+				06A59E211FE8A35100DB40CF /* SUEFirstScene.h */,
+				06A59E221FE8A35100DB40CF /* SUEFirstScene.m */,
 				063395F11FE909DF001918CC /* SUESecondScene.sks */,
 				063395FA1FE90CB3001918CC /* SUESecondScene.h */,
 				063395FB1FE90CB3001918CC /* SUESecondScene.m */,
@@ -347,7 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A59E291FE8A35100DB40CF /* Main.storyboard in Resources */,
-				06A59E1E1FE8A35100DB40CF /* GameScene.sks in Resources */,
+				06A59E1E1FE8A35100DB40CF /* SUEFirstScene.sks in Resources */,
 				063395F21FE909DF001918CC /* SUESecondScene.sks in Resources */,
 				06A59E2B1FE8A35100DB40CF /* Assets.xcassets in Resources */,
 				06A59E2E1FE8A35100DB40CF /* LaunchScreen.storyboard in Resources */,
@@ -370,7 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				063395FC1FE90CB3001918CC /* SUESecondScene.m in Sources */,
-				06A59E231FE8A35100DB40CF /* GameScene.m in Sources */,
+				06A59E231FE8A35100DB40CF /* SUEFirstScene.m in Sources */,
 				06A59E261FE8A35100DB40CF /* GameViewController.m in Sources */,
 				06666EA81FE8BB4D00D265CF /* SUEScene.m in Sources */,
 				06A59E311FE8A35100DB40CF /* main.m in Sources */,

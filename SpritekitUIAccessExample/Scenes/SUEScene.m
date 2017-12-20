@@ -10,8 +10,8 @@
 
 @implementation SUEScene
 
-- (void)didMoveToView:(SKView *)view {
-  [super didMoveToView:view];
+- (void)sceneDidLoad {
+  self.scaleMode = SKSceneScaleModeAspectFill;
   self.isAccessibilityElement = NO;
 }
 

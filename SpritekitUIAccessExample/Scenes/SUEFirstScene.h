@@ -10,7 +10,7 @@
 #import <GameplayKit/GameplayKit.h>
 #import "SUEScene.h"
 
-@interface GameScene : SUEScene
+@interface SUEFirstScene : SUEScene
 
 @property (nonatomic) NSMutableArray<GKEntity *> *entities;
 @property (nonatomic) NSMutableDictionary<NSString*, GKGraph *> *graphs;

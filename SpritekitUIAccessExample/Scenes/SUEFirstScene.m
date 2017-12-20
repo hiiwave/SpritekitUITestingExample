@@ -6,11 +6,11 @@
 //  Copyright © 2017 pong. All rights reserved.
 //
 
-#import "GameScene.h"
+#import "SUEFirstScene.h"
 
 #import "SUESecondScene.h"
 
-@implementation GameScene {
+@implementation SUEFirstScene {
   NSTimeInterval _lastUpdateTime;
   SKShapeNode *_spinnyNode;
   SKLabelNode *_label;
@@ -71,10 +71,7 @@
   UITouch *touch = [touches anyObject];
   SKNode *touchedNode = [self nodeAtPoint:[touch locationInNode:self]];
   if ([touchedNode.name isEqual:@"nextBtn"]) {
-//    SKScene *nextScene = [[SUESecondScene alloc] init];
-    SKScene *nextScene = [SKScene nodeWithFileNamed:@"SUESecondScene"];
-    [self.view presentScene:nextScene];
-    
+    [self transitToSecondScene];
   }
   
   [_label runAction:[SKAction actionNamed:@"Pulse"] withKey:@"fadeInOut"];
@@ -108,6 +105,12 @@
   }
   
   _lastUpdateTime = currentTime;
+}
+
+- (void)transitToSecondScene {
+  SKScene *nextScene = [SKScene nodeWithFileNamed:@"SUESecondScene"];
+  nextScene.scaleMode = SKSceneScaleModeAspectFill;
+  [self.view presentScene:nextScene];
 }
 
 @end
