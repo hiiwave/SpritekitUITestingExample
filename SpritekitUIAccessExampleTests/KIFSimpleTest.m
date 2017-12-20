@@ -31,6 +31,7 @@
   [UIView printViewHierarchy];
   [tester tapViewWithAccessibilityLabel:@"nextBtn"];
   [UIView printViewHierarchy];
+  [tester tapViewWithAccessibilityLabel:@"lastBtn"];
 }
 
 - (void)testFailedSimple {
