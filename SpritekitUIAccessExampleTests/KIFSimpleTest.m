@@ -41,22 +41,4 @@
   [[tester usingTimeout:3] waitForViewWithAccessibilityLabel:@"helloLabel"];
 }
 
-//- (void)testThatUsesViewTestActorCategory
-//{
-//
-//  [[viewTester redCell] tap];
-//  [viewTester validateSelectedColor:@"Red"];
-//  [[viewTester blueCell] tap];
-//  [viewTester validateSelectedColor:@"Blue"];
-//}
-//
-//- (void)testSelectingDifferentColors
-//{
-//  [[viewTester usingLabel:@"Purple"] tap];
-//  [[viewTester usingLabel:@"Blue"] tap];
-//  [[viewTester usingLabel:@"Red"] tap];
-//  [viewTester waitForTimeInterval:5.0];
-//  [[viewTester usingLabel:@"Selected: Red"] waitForView];
-//}
-
 @end

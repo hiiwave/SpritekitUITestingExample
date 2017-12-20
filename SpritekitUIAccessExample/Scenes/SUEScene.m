@@ -57,4 +57,9 @@
   self.accessibilityElements = _accessibleElements;
 }
 
+#pragma mark buttons
+
+- (void)button:(MyButtonNode *)button touchBegan:(UITouch *)touch {
+}
+
 @end

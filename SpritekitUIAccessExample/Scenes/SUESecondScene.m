@@ -13,14 +13,17 @@
 - (void)sceneDidLoad {
   [super sceneDidLoad];
   [self.testableNodes addObject:[self childNodeWithName:@"//lastBtn"]];
+  
+  MyButtonNode *lastBtn = (MyButtonNode *)[self childNodeWithName:@"//lastBtn"];
+  lastBtn.delegate = self;
+  lastBtn.labelText = @"LAST";
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-  // Run 'Pulse' action from 'Actions.sks'
   UITouch *touch = [touches anyObject];
   SKNode *touchedNode = [self nodeAtPoint:[touch locationInNode:self]];
   if ([touchedNode.name isEqual:@"lastBtn"]) {
-    [self transitToFirstScene];
+//    [self transitToFirstScene];
   }
 }
 
@@ -28,6 +31,14 @@
   SKScene *nextScene = [SKScene nodeWithFileNamed:@"SUEFirstScene"];
   nextScene.scaleMode = SKSceneScaleModeAspectFill;
   [self.view presentScene:nextScene];
+}
+
+#pragma mark buttons
+
+- (void)button:(MyButtonNode *)button touchBegan:(UITouch *)touch {
+  if ([button.name isEqual:@"lastBtn"]) {
+    [self transitToFirstScene];
+  }
 }
 
 @end

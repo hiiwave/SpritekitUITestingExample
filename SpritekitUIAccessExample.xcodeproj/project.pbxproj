@@ -12,10 +12,12 @@
 		063395FC1FE90CB3001918CC /* SUESecondScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 063395FB1FE90CB3001918CC /* SUESecondScene.m */; };
 		0633960E1FEA03A9001918CC /* SpritekitUIAccessExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */; };
 		0633960F1FEA03A9001918CC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0633960D1FEA03A8001918CC /* Info.plist */; };
+		063396191FEA2C0D001918CC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 063396181FEA2C0D001918CC /* Actions.sks */; };
+		0633961C1FEA2C97001918CC /* MyButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633961B1FEA2C97001918CC /* MyButtonNode.m */; };
+		063396201FEA3A8F001918CC /* MyButtonLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633961F1FEA3A8F001918CC /* MyButtonLabel.m */; };
 		06666EA81FE8BB4D00D265CF /* SUEScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 06666EA71FE8BB4D00D265CF /* SUEScene.m */; };
 		06A59E1C1FE8A35100DB40CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E1B1FE8A35100DB40CF /* AppDelegate.m */; };
 		06A59E1E1FE8A35100DB40CF /* SUEFirstScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E1D1FE8A35100DB40CF /* SUEFirstScene.sks */; };
-		06A59E201FE8A35100DB40CF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E1F1FE8A35100DB40CF /* Actions.sks */; };
 		06A59E231FE8A35100DB40CF /* SUEFirstScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E221FE8A35100DB40CF /* SUEFirstScene.m */; };
 		06A59E261FE8A35100DB40CF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E251FE8A35100DB40CF /* GameViewController.m */; };
 		06A59E291FE8A35100DB40CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E271FE8A35100DB40CF /* Main.storyboard */; };
@@ -94,13 +96,17 @@
 		063396011FEA0058001918CC /* SpritekitUIAccessExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUIAccessExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritekitUIAccessExampleUITests.m; sourceTree = "<group>"; };
 		0633960D1FEA03A8001918CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		063396181FEA2C0D001918CC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Actions.sks; path = SpritekitUIAccessExample/Actions.sks; sourceTree = SOURCE_ROOT; };
+		0633961A1FEA2C97001918CC /* MyButtonNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButtonNode.h; sourceTree = "<group>"; };
+		0633961B1FEA2C97001918CC /* MyButtonNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButtonNode.m; sourceTree = "<group>"; };
+		0633961E1FEA3A8F001918CC /* MyButtonLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButtonLabel.h; sourceTree = "<group>"; };
+		0633961F1FEA3A8F001918CC /* MyButtonLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButtonLabel.m; sourceTree = "<group>"; };
 		06666EA61FE8BB4D00D265CF /* SUEScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUEScene.h; sourceTree = "<group>"; };
 		06666EA71FE8BB4D00D265CF /* SUEScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUEScene.m; sourceTree = "<group>"; };
 		06A59E171FE8A35100DB40CF /* SpritekitUIAccessExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritekitUIAccessExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A59E1A1FE8A35100DB40CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06A59E1B1FE8A35100DB40CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		06A59E1D1FE8A35100DB40CF /* SUEFirstScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SUEFirstScene.sks; sourceTree = "<group>"; };
-		06A59E1F1FE8A35100DB40CF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		06A59E211FE8A35100DB40CF /* SUEFirstScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUEFirstScene.h; sourceTree = "<group>"; };
 		06A59E221FE8A35100DB40CF /* SUEFirstScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUEFirstScene.m; sourceTree = "<group>"; };
 		06A59E241FE8A35100DB40CF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
@@ -154,6 +160,17 @@
 			path = SpritekitUIAccessExampleUITests;
 			sourceTree = "<group>";
 		};
+		0633961D1FEA3A73001918CC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				0633961A1FEA2C97001918CC /* MyButtonNode.h */,
+				0633961B1FEA2C97001918CC /* MyButtonNode.m */,
+				0633961E1FEA3A8F001918CC /* MyButtonLabel.h */,
+				0633961F1FEA3A8F001918CC /* MyButtonLabel.m */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		06666EB01FE8BB5500D265CF /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,15 +211,16 @@
 			isa = PBXGroup;
 			children = (
 				06666EB01FE8BB5500D265CF /* Scenes */,
+				0633961D1FEA3A73001918CC /* Buttons */,
 				06A59E1A1FE8A35100DB40CF /* AppDelegate.h */,
 				06A59E1B1FE8A35100DB40CF /* AppDelegate.m */,
-				06A59E1F1FE8A35100DB40CF /* Actions.sks */,
 				06A59E241FE8A35100DB40CF /* GameViewController.h */,
 				06A59E251FE8A35100DB40CF /* GameViewController.m */,
 				06A59E271FE8A35100DB40CF /* Main.storyboard */,
 				06A59E2A1FE8A35100DB40CF /* Assets.xcassets */,
 				06A59E2C1FE8A35100DB40CF /* LaunchScreen.storyboard */,
 				06A59E2F1FE8A35100DB40CF /* Info.plist */,
+				063396181FEA2C0D001918CC /* Actions.sks */,
 				06A59E301FE8A35100DB40CF /* main.m */,
 			);
 			path = SpritekitUIAccessExample;
@@ -406,11 +424,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A59E291FE8A35100DB40CF /* Main.storyboard in Resources */,
+				063396191FEA2C0D001918CC /* Actions.sks in Resources */,
 				06A59E1E1FE8A35100DB40CF /* SUEFirstScene.sks in Resources */,
 				063395F21FE909DF001918CC /* SUESecondScene.sks in Resources */,
 				06A59E2B1FE8A35100DB40CF /* Assets.xcassets in Resources */,
 				06A59E2E1FE8A35100DB40CF /* LaunchScreen.storyboard in Resources */,
-				06A59E201FE8A35100DB40CF /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,8 +455,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				063395FC1FE90CB3001918CC /* SUESecondScene.m in Sources */,
+				0633961C1FEA2C97001918CC /* MyButtonNode.m in Sources */,
 				06A59E231FE8A35100DB40CF /* SUEFirstScene.m in Sources */,
 				06A59E261FE8A35100DB40CF /* GameViewController.m in Sources */,
+				063396201FEA3A8F001918CC /* MyButtonLabel.m in Sources */,
 				06666EA81FE8BB4D00D265CF /* SUEScene.m in Sources */,
 				06A59E311FE8A35100DB40CF /* main.m in Sources */,
 				06A59E1C1FE8A35100DB40CF /* AppDelegate.m in Sources */,

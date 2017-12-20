@@ -9,7 +9,9 @@
 #import <SpriteKit/SpriteKit.h>
 #import <GamePlayKit/GamePlayKit.h>
 
-@interface SUEScene : SKScene
+#import "MyButtonNode.h"
+
+@interface SUEScene : SKScene<MyButtonNodeDelegate>
 
 @property(nonatomic) NSMutableArray *testableNodes;
 @property(nonatomic) NSMutableArray *accessibleElements;
