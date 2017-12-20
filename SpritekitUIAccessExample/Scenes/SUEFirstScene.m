@@ -37,13 +37,6 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-  //  UITouch *touch = [touches anyObject];
-  //  SKNode *touchedNode = [self nodeAtPoint:[touch locationInNode:self]];
-  //  if ([touchedNode.name isEqual:@"nextBtn"]) {
-  //    NSLog(@"touchedNode.class is %@", touchedNode.class);
-  //    [self transitToSecondScene];
-  //  }
-
   // Run 'Pulse' action from 'Actions.sks'
   [_label runAction:[SKAction actionNamed:@"Pulse"] withKey:@"fadeInOut"];
 }
