@@ -10,6 +10,11 @@
 
 @implementation SUESecondScene
 
+- (void)sceneDidLoad {
+  [super sceneDidLoad];
+  [self.accessibleSprites addObject:[self childNodeWithName:@"//lastBtn"]];
+}
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
   // Run 'Pulse' action from 'Actions.sks'
   UITouch *touch = [touches anyObject];

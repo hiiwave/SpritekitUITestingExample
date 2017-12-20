@@ -41,7 +41,7 @@
                                               [SKAction removeFromParent],
                                               ]]];
   
-  
+  [self.accessibleSprites addObject:[self childNodeWithName:@"//nextBtn"]];
 }
 
 
