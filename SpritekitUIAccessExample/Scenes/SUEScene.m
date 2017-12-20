@@ -12,6 +12,8 @@
 
 - (void)sceneDidLoad {
   self.scaleMode = SKSceneScaleModeAspectFill;
+  _testableNodes = [NSMutableArray array];
+  _accessibleElements = [NSMutableArray array];
   self.isAccessibilityElement = NO;
 }
 
@@ -42,7 +44,7 @@
 
 - (void)initAccessibility {
   if (_accessibleElements.count > 0) return;
-  for (SKSpriteNode* sprite in _accessibleSprites) {
+  for (SKSpriteNode* sprite in _testableNodes) {
     UIAccessibilityElement* accessElement = [[UIAccessibilityElement alloc] initWithAccessibilityContainer:self.view];
     CGRect frame = sprite.frame;
     frame.origin = [self.view convertPoint:frame.origin fromScene:self];
@@ -52,6 +54,7 @@
     accessElement.accessibilityTraits = UIAccessibilityTraitButton;
     [_accessibleElements addObject:accessElement];
   }
+  self.accessibilityElements = _accessibleElements;
 }
 
 @end

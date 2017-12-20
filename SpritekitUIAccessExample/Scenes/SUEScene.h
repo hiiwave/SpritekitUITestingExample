@@ -11,7 +11,7 @@
 
 @interface SUEScene : SKScene
 
-@property(nonatomic) NSMutableArray *accessibleSprites;
+@property(nonatomic) NSMutableArray *testableNodes;
 @property(nonatomic) NSMutableArray *accessibleElements;
 
 @end

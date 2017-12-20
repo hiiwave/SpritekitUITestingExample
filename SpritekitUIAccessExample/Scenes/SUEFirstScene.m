@@ -17,6 +17,7 @@
 }
 
 - (void)sceneDidLoad {
+  [super sceneDidLoad];
   // Setup your scene here
   
   // Initialize update time
@@ -41,7 +42,14 @@
                                               [SKAction removeFromParent],
                                               ]]];
   
-  [self.accessibleSprites addObject:[self childNodeWithName:@"//nextBtn"]];
+  [self addTestableNodes];
+}
+
+- (void)addTestableNodes {
+  [self.testableNodes addObject:[self childNodeWithName:@"//nextBtn"]];
+  [self.testableNodes addObject:[self childNodeWithName:@"//helloLabel"]];
+  [self.testableNodes addObject:[self childNodeWithName:@"//node1"]];
+  [self.testableNodes addObject:[self childNodeWithName:@"//node2"]];
 }
 
 

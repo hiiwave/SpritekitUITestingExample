@@ -12,7 +12,7 @@
 
 - (void)sceneDidLoad {
   [super sceneDidLoad];
-  [self.accessibleSprites addObject:[self childNodeWithName:@"//lastBtn"]];
+  [self.testableNodes addObject:[self childNodeWithName:@"//lastBtn"]];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {

@@ -10,6 +10,8 @@
 		061ACC281FE8B22A0063BC37 /* KIFSimpleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 061ACC271FE8B22A0063BC37 /* KIFSimpleTest.m */; };
 		063395F21FE909DF001918CC /* SUESecondScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 063395F11FE909DF001918CC /* SUESecondScene.sks */; };
 		063395FC1FE90CB3001918CC /* SUESecondScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 063395FB1FE90CB3001918CC /* SUESecondScene.m */; };
+		0633960E1FEA03A9001918CC /* SpritekitUIAccessExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */; };
+		0633960F1FEA03A9001918CC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0633960D1FEA03A8001918CC /* Info.plist */; };
 		06666EA81FE8BB4D00D265CF /* SUEScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 06666EA71FE8BB4D00D265CF /* SUEScene.m */; };
 		06A59E1C1FE8A35100DB40CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E1B1FE8A35100DB40CF /* AppDelegate.m */; };
 		06A59E1E1FE8A35100DB40CF /* SUEFirstScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E1D1FE8A35100DB40CF /* SUEFirstScene.sks */; };
@@ -20,13 +22,19 @@
 		06A59E2B1FE8A35100DB40CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E2A1FE8A35100DB40CF /* Assets.xcassets */; };
 		06A59E2E1FE8A35100DB40CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E2C1FE8A35100DB40CF /* LaunchScreen.storyboard */; };
 		06A59E311FE8A35100DB40CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E301FE8A35100DB40CF /* main.m */; };
-		06A59E3B1FE8A35200DB40CF /* SpritekitUIAccessExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E3A1FE8A35200DB40CF /* SpritekitUIAccessExampleTests.m */; };
 		06A59E6A1FE8A99500DB40CF /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A59E5E1FE8A92000DB40CF /* libKIF.a */; };
 		06A59E6C1FE8A9A400DB40CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A59E6B1FE8A9A400DB40CF /* CoreGraphics.framework */; };
 		06A59E6E1FE8A9A900DB40CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A59E6D1FE8A9A900DB40CF /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		063396061FEA0059001918CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06A59E0F1FE8A35100DB40CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06A59E161FE8A35100DB40CF;
+			remoteInfo = SpritekitUIAccessExample;
+		};
 		06A59E371FE8A35200DB40CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 06A59E0F1FE8A35100DB40CF /* Project object */;
@@ -83,6 +91,9 @@
 		063395F11FE909DF001918CC /* SUESecondScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SUESecondScene.sks; sourceTree = "<group>"; };
 		063395FA1FE90CB3001918CC /* SUESecondScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUESecondScene.h; sourceTree = "<group>"; };
 		063395FB1FE90CB3001918CC /* SUESecondScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUESecondScene.m; sourceTree = "<group>"; };
+		063396011FEA0058001918CC /* SpritekitUIAccessExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUIAccessExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritekitUIAccessExampleUITests.m; sourceTree = "<group>"; };
+		0633960D1FEA03A8001918CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06666EA61FE8BB4D00D265CF /* SUEScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUEScene.h; sourceTree = "<group>"; };
 		06666EA71FE8BB4D00D265CF /* SUEScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUEScene.m; sourceTree = "<group>"; };
 		06A59E171FE8A35100DB40CF /* SpritekitUIAccessExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritekitUIAccessExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +111,6 @@
 		06A59E2F1FE8A35100DB40CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06A59E301FE8A35100DB40CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A59E361FE8A35200DB40CF /* SpritekitUIAccessExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUIAccessExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06A59E3A1FE8A35200DB40CF /* SpritekitUIAccessExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpritekitUIAccessExampleTests.m; sourceTree = "<group>"; };
 		06A59E3C1FE8A35200DB40CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06A59E531FE8A92000DB40CF /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = KIF/KIF.xcodeproj; sourceTree = SOURCE_ROOT; };
 		06A59E6B1FE8A9A400DB40CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -108,6 +118,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		063395FE1FEA0058001918CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		06A59E141FE8A35100DB40CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +145,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0633960B1FEA03A8001918CC /* SpritekitUIAccessExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */,
+				0633960D1FEA03A8001918CC /* Info.plist */,
+			);
+			path = SpritekitUIAccessExampleUITests;
+			sourceTree = "<group>";
+		};
 		06666EB01FE8BB5500D265CF /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +174,7 @@
 			children = (
 				06A59E191FE8A35100DB40CF /* SpritekitUIAccessExample */,
 				06A59E391FE8A35200DB40CF /* SpritekitUIAccessExampleTests */,
+				0633960B1FEA03A8001918CC /* SpritekitUIAccessExampleUITests */,
 				06A59E181FE8A35100DB40CF /* Products */,
 				06A59E691FE8A99500DB40CF /* Frameworks */,
 			);
@@ -158,6 +185,7 @@
 			children = (
 				06A59E171FE8A35100DB40CF /* SpritekitUIAccessExample.app */,
 				06A59E361FE8A35200DB40CF /* SpritekitUIAccessExampleTests.xctest */,
+				063396011FEA0058001918CC /* SpritekitUIAccessExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,7 +212,6 @@
 			isa = PBXGroup;
 			children = (
 				06A59E531FE8A92000DB40CF /* KIF.xcodeproj */,
-				06A59E3A1FE8A35200DB40CF /* SpritekitUIAccessExampleTests.m */,
 				06A59E3C1FE8A35200DB40CF /* Info.plist */,
 				061ACC271FE8B22A0063BC37 /* KIFSimpleTest.m */,
 			);
@@ -216,6 +243,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		063396001FEA0058001918CC /* SpritekitUIAccessExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063396081FEA0059001918CC /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExampleUITests" */;
+			buildPhases = (
+				063395FD1FEA0058001918CC /* Sources */,
+				063395FE1FEA0058001918CC /* Frameworks */,
+				063395FF1FEA0058001918CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				063396071FEA0059001918CC /* PBXTargetDependency */,
+			);
+			name = SpritekitUIAccessExampleUITests;
+			productName = SpritekitUIAccessExampleUITests;
+			productReference = 063396011FEA0058001918CC /* SpritekitUIAccessExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06A59E4A1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExample" */;
@@ -260,6 +305,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = pong;
 				TargetAttributes = {
+					063396001FEA0058001918CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06A59E161FE8A35100DB40CF;
+					};
 					06A59E161FE8A35100DB40CF = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -292,6 +342,7 @@
 			targets = (
 				06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */,
 				06A59E351FE8A35200DB40CF /* SpritekitUIAccessExampleTests */,
+				063396001FEA0058001918CC /* SpritekitUIAccessExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -342,6 +393,14 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		063395FF1FEA0058001918CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0633960F1FEA03A9001918CC /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		06A59E151FE8A35100DB40CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,6 +424,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		063395FD1FEA0058001918CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0633960E1FEA03A9001918CC /* SpritekitUIAccessExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		06A59E131FE8A35100DB40CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,13 +450,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				061ACC281FE8B22A0063BC37 /* KIFSimpleTest.m in Sources */,
-				06A59E3B1FE8A35200DB40CF /* SpritekitUIAccessExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		063396071FEA0059001918CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */;
+			targetProxy = 063396061FEA0059001918CC /* PBXContainerItemProxy */;
+		};
 		06A59E381FE8A35200DB40CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */;
@@ -417,6 +488,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		063396091FEA0059001918CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNXR3S22ZF;
+				INFOPLIST_FILE = SpritekitUIAccessExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpritekitUIAccessExample;
+			};
+			name = Debug;
+		};
+		0633960A1FEA0059001918CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNXR3S22ZF;
+				INFOPLIST_FILE = SpritekitUIAccessExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpritekitUIAccessExample;
+			};
+			name = Release;
+		};
 		06A59E481FE8A35200DB40CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -592,6 +691,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		063396081FEA0059001918CC /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063396091FEA0059001918CC /* Debug */,
+				0633960A1FEA0059001918CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		06A59E121FE8A35100DB40CF /* Build configuration list for PBXProject "SpritekitUIAccessExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

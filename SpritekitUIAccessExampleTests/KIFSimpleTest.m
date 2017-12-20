@@ -16,10 +16,28 @@
 
 @implementation KIFSimpleTest
 
+- (void)beforeEach {
+}
+
+- (void)afterEach {
+  if([[[UIApplication sharedApplication] keyWindow] accessibilityElementWithLabel:@"lastBtn"] != nil) {
+    [tester tapViewWithAccessibilityLabel:@"lastBtn"];
+  } else {
+  }
+}
 
 - (void)testSimple {
-  NSLog(@"QQ");
+  [tester waitForViewWithAccessibilityLabel:@"helloLabel"];
   [UIView printViewHierarchy];
+  [tester tapViewWithAccessibilityLabel:@"nextBtn"];
+  [UIView printViewHierarchy];
+}
+
+- (void)testFailedSimple {
+  [tester waitForViewWithAccessibilityLabel:@"helloLabel"];
+  [tester tapViewWithAccessibilityLabel:@"nextBtn"];
+  // Fail at this line
+  [[tester usingTimeout:3] waitForViewWithAccessibilityLabel:@"helloLabel"];
 }
 
 //- (void)testThatUsesViewTestActorCategory
