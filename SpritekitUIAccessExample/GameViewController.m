@@ -17,7 +17,7 @@
     // Load 'GameScene.sks' as a GKScene. This provides gameplay related content
     // including entities and graphs.
     GKScene *scene = [GKScene sceneWithFileNamed:@"GameScene"];
-    
+  
     // Get the SKScene from the loaded GKScene
     GameScene *sceneNode = (GameScene *)scene.rootNode;
     

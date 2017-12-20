@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061ACC281FE8B22A0063BC37 /* KIFSimpleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 061ACC271FE8B22A0063BC37 /* KIFSimpleTest.m */; };
+		063395F21FE909DF001918CC /* SUESecondScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 063395F11FE909DF001918CC /* SUESecondScene.sks */; };
+		063395FC1FE90CB3001918CC /* SUESecondScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 063395FB1FE90CB3001918CC /* SUESecondScene.m */; };
+		06666EA81FE8BB4D00D265CF /* SUEScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 06666EA71FE8BB4D00D265CF /* SUEScene.m */; };
 		06A59E1C1FE8A35100DB40CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E1B1FE8A35100DB40CF /* AppDelegate.m */; };
 		06A59E1E1FE8A35100DB40CF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E1D1FE8A35100DB40CF /* GameScene.sks */; };
 		06A59E201FE8A35100DB40CF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E1F1FE8A35100DB40CF /* Actions.sks */; };
@@ -17,7 +21,9 @@
 		06A59E2E1FE8A35100DB40CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E2C1FE8A35100DB40CF /* LaunchScreen.storyboard */; };
 		06A59E311FE8A35100DB40CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E301FE8A35100DB40CF /* main.m */; };
 		06A59E3B1FE8A35200DB40CF /* SpritekitUIAccessExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E3A1FE8A35200DB40CF /* SpritekitUIAccessExampleTests.m */; };
-		06A59E461FE8A35200DB40CF /* SpritekitUIAccessExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E451FE8A35200DB40CF /* SpritekitUIAccessExampleUITests.m */; };
+		06A59E6A1FE8A99500DB40CF /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A59E5E1FE8A92000DB40CF /* libKIF.a */; };
+		06A59E6C1FE8A9A400DB40CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A59E6B1FE8A9A400DB40CF /* CoreGraphics.framework */; };
+		06A59E6E1FE8A9A900DB40CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A59E6D1FE8A9A900DB40CF /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,16 +34,57 @@
 			remoteGlobalIDString = 06A59E161FE8A35100DB40CF;
 			remoteInfo = SpritekitUIAccessExample;
 		};
-		06A59E421FE8A35200DB40CF /* PBXContainerItemProxy */ = {
+		06A59E5D1FE8A92000DB40CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 06A59E0F1FE8A35100DB40CF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 06A59E161FE8A35100DB40CF;
-			remoteInfo = SpritekitUIAccessExample;
+			containerPortal = 06A59E531FE8A92000DB40CF /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46AA1857A0C700A5F081;
+			remoteInfo = KIF;
+		};
+		06A59E5F1FE8A92000DB40CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06A59E531FE8A92000DB40CF /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECC1177F8C83005A041A;
+			remoteInfo = "Test Host";
+		};
+		06A59E611FE8A92000DB40CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06A59E531FE8A92000DB40CF /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46CD1857A0F300A5F081;
+			remoteInfo = "KIF Tests";
+		};
+		06A59E631FE8A92000DB40CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06A59E531FE8A92000DB40CF /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9CC9673B1AD4B1B600576D13;
+			remoteInfo = KIFFramework;
+		};
+		06A59E651FE8A92000DB40CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06A59E531FE8A92000DB40CF /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAB89FFC1CAC546900C6DFC1;
+			remoteInfo = KIFFrameworkConsumer;
+		};
+		06A59E671FE8A92000DB40CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06A59E531FE8A92000DB40CF /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAB8A0141CAC546A00C6DFC1;
+			remoteInfo = KIFFrameworkConsumerTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		061ACC271FE8B22A0063BC37 /* KIFSimpleTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFSimpleTest.m; sourceTree = "<group>"; };
+		063395F11FE909DF001918CC /* SUESecondScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SUESecondScene.sks; sourceTree = "<group>"; };
+		063395FA1FE90CB3001918CC /* SUESecondScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUESecondScene.h; sourceTree = "<group>"; };
+		063395FB1FE90CB3001918CC /* SUESecondScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUESecondScene.m; sourceTree = "<group>"; };
+		06666EA61FE8BB4D00D265CF /* SUEScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUEScene.h; sourceTree = "<group>"; };
+		06666EA71FE8BB4D00D265CF /* SUEScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUEScene.m; sourceTree = "<group>"; };
 		06A59E171FE8A35100DB40CF /* SpritekitUIAccessExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritekitUIAccessExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A59E1A1FE8A35100DB40CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06A59E1B1FE8A35100DB40CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,9 +102,9 @@
 		06A59E361FE8A35200DB40CF /* SpritekitUIAccessExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUIAccessExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A59E3A1FE8A35200DB40CF /* SpritekitUIAccessExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpritekitUIAccessExampleTests.m; sourceTree = "<group>"; };
 		06A59E3C1FE8A35200DB40CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06A59E411FE8A35200DB40CF /* SpritekitUIAccessExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUIAccessExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06A59E451FE8A35200DB40CF /* SpritekitUIAccessExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpritekitUIAccessExampleUITests.m; sourceTree = "<group>"; };
-		06A59E471FE8A35200DB40CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06A59E531FE8A92000DB40CF /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = KIF/KIF.xcodeproj; sourceTree = SOURCE_ROOT; };
+		06A59E6B1FE8A9A400DB40CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06A59E6D1FE8A9A900DB40CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,26 +119,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06A59E3E1FE8A35200DB40CF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				06A59E6E1FE8A9A900DB40CF /* QuartzCore.framework in Frameworks */,
+				06A59E6C1FE8A9A400DB40CF /* CoreGraphics.framework in Frameworks */,
+				06A59E6A1FE8A99500DB40CF /* libKIF.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06666EB01FE8BB5500D265CF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				06A59E1D1FE8A35100DB40CF /* GameScene.sks */,
+				06A59E211FE8A35100DB40CF /* GameScene.h */,
+				06A59E221FE8A35100DB40CF /* GameScene.m */,
+				063395F11FE909DF001918CC /* SUESecondScene.sks */,
+				063395FA1FE90CB3001918CC /* SUESecondScene.h */,
+				063395FB1FE90CB3001918CC /* SUESecondScene.m */,
+				06666EA61FE8BB4D00D265CF /* SUEScene.h */,
+				06666EA71FE8BB4D00D265CF /* SUEScene.m */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		06A59E0E1FE8A35100DB40CF = {
 			isa = PBXGroup;
 			children = (
 				06A59E191FE8A35100DB40CF /* SpritekitUIAccessExample */,
 				06A59E391FE8A35200DB40CF /* SpritekitUIAccessExampleTests */,
-				06A59E441FE8A35200DB40CF /* SpritekitUIAccessExampleUITests */,
 				06A59E181FE8A35100DB40CF /* Products */,
+				06A59E691FE8A99500DB40CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +158,6 @@
 			children = (
 				06A59E171FE8A35100DB40CF /* SpritekitUIAccessExample.app */,
 				06A59E361FE8A35200DB40CF /* SpritekitUIAccessExampleTests.xctest */,
-				06A59E411FE8A35200DB40CF /* SpritekitUIAccessExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,12 +165,10 @@
 		06A59E191FE8A35100DB40CF /* SpritekitUIAccessExample */ = {
 			isa = PBXGroup;
 			children = (
+				06666EB01FE8BB5500D265CF /* Scenes */,
 				06A59E1A1FE8A35100DB40CF /* AppDelegate.h */,
 				06A59E1B1FE8A35100DB40CF /* AppDelegate.m */,
-				06A59E1D1FE8A35100DB40CF /* GameScene.sks */,
 				06A59E1F1FE8A35100DB40CF /* Actions.sks */,
-				06A59E211FE8A35100DB40CF /* GameScene.h */,
-				06A59E221FE8A35100DB40CF /* GameScene.m */,
 				06A59E241FE8A35100DB40CF /* GameViewController.h */,
 				06A59E251FE8A35100DB40CF /* GameViewController.m */,
 				06A59E271FE8A35100DB40CF /* Main.storyboard */,
@@ -128,19 +183,34 @@
 		06A59E391FE8A35200DB40CF /* SpritekitUIAccessExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				06A59E531FE8A92000DB40CF /* KIF.xcodeproj */,
 				06A59E3A1FE8A35200DB40CF /* SpritekitUIAccessExampleTests.m */,
 				06A59E3C1FE8A35200DB40CF /* Info.plist */,
+				061ACC271FE8B22A0063BC37 /* KIFSimpleTest.m */,
 			);
 			path = SpritekitUIAccessExampleTests;
 			sourceTree = "<group>";
 		};
-		06A59E441FE8A35200DB40CF /* SpritekitUIAccessExampleUITests */ = {
+		06A59E541FE8A92000DB40CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06A59E451FE8A35200DB40CF /* SpritekitUIAccessExampleUITests.m */,
-				06A59E471FE8A35200DB40CF /* Info.plist */,
+				06A59E5E1FE8A92000DB40CF /* libKIF.a */,
+				06A59E601FE8A92000DB40CF /* Test Host.app */,
+				06A59E621FE8A92000DB40CF /* KIF Tests - XCTest.xctest */,
+				06A59E641FE8A92000DB40CF /* KIF.framework */,
+				06A59E661FE8A92000DB40CF /* KIFFrameworkConsumer.app */,
+				06A59E681FE8A92000DB40CF /* KIFFrameworkConsumerTests.xctest */,
 			);
-			path = SpritekitUIAccessExampleUITests;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06A59E691FE8A99500DB40CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06A59E6D1FE8A9A900DB40CF /* QuartzCore.framework */,
+				06A59E6B1FE8A9A400DB40CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,24 +251,6 @@
 			productReference = 06A59E361FE8A35200DB40CF /* SpritekitUIAccessExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		06A59E401FE8A35200DB40CF /* SpritekitUIAccessExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 06A59E501FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExampleUITests" */;
-			buildPhases = (
-				06A59E3D1FE8A35200DB40CF /* Sources */,
-				06A59E3E1FE8A35200DB40CF /* Frameworks */,
-				06A59E3F1FE8A35200DB40CF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				06A59E431FE8A35200DB40CF /* PBXTargetDependency */,
-			);
-			name = SpritekitUIAccessExampleUITests;
-			productName = SpritekitUIAccessExampleUITests;
-			productReference = 06A59E411FE8A35200DB40CF /* SpritekitUIAccessExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,11 +269,6 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 06A59E161FE8A35100DB40CF;
 					};
-					06A59E401FE8A35200DB40CF = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 06A59E161FE8A35100DB40CF;
-					};
 				};
 			};
 			buildConfigurationList = 06A59E121FE8A35100DB40CF /* Build configuration list for PBXProject "SpritekitUIAccessExample" */;
@@ -235,14 +282,64 @@
 			mainGroup = 06A59E0E1FE8A35100DB40CF;
 			productRefGroup = 06A59E181FE8A35100DB40CF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 06A59E541FE8A92000DB40CF /* Products */;
+					ProjectRef = 06A59E531FE8A92000DB40CF /* KIF.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */,
 				06A59E351FE8A35200DB40CF /* SpritekitUIAccessExampleTests */,
-				06A59E401FE8A35200DB40CF /* SpritekitUIAccessExampleUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		06A59E5E1FE8A92000DB40CF /* libKIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKIF.a;
+			remoteRef = 06A59E5D1FE8A92000DB40CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06A59E601FE8A92000DB40CF /* Test Host.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Test Host.app";
+			remoteRef = 06A59E5F1FE8A92000DB40CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06A59E621FE8A92000DB40CF /* KIF Tests - XCTest.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KIF Tests - XCTest.xctest";
+			remoteRef = 06A59E611FE8A92000DB40CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06A59E641FE8A92000DB40CF /* KIF.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KIF.framework;
+			remoteRef = 06A59E631FE8A92000DB40CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06A59E661FE8A92000DB40CF /* KIFFrameworkConsumer.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = KIFFrameworkConsumer.app;
+			remoteRef = 06A59E651FE8A92000DB40CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06A59E681FE8A92000DB40CF /* KIFFrameworkConsumerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KIFFrameworkConsumerTests.xctest;
+			remoteRef = 06A59E671FE8A92000DB40CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		06A59E151FE8A35100DB40CF /* Resources */ = {
@@ -251,6 +348,7 @@
 			files = (
 				06A59E291FE8A35100DB40CF /* Main.storyboard in Resources */,
 				06A59E1E1FE8A35100DB40CF /* GameScene.sks in Resources */,
+				063395F21FE909DF001918CC /* SUESecondScene.sks in Resources */,
 				06A59E2B1FE8A35100DB40CF /* Assets.xcassets in Resources */,
 				06A59E2E1FE8A35100DB40CF /* LaunchScreen.storyboard in Resources */,
 				06A59E201FE8A35100DB40CF /* Actions.sks in Resources */,
@@ -264,13 +362,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06A59E3F1FE8A35200DB40CF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -278,8 +369,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				063395FC1FE90CB3001918CC /* SUESecondScene.m in Sources */,
 				06A59E231FE8A35100DB40CF /* GameScene.m in Sources */,
 				06A59E261FE8A35100DB40CF /* GameViewController.m in Sources */,
+				06666EA81FE8BB4D00D265CF /* SUEScene.m in Sources */,
 				06A59E311FE8A35100DB40CF /* main.m in Sources */,
 				06A59E1C1FE8A35100DB40CF /* AppDelegate.m in Sources */,
 			);
@@ -289,15 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061ACC281FE8B22A0063BC37 /* KIFSimpleTest.m in Sources */,
 				06A59E3B1FE8A35200DB40CF /* SpritekitUIAccessExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06A59E3D1FE8A35200DB40CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06A59E461FE8A35200DB40CF /* SpritekitUIAccessExampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,11 +394,6 @@
 			isa = PBXTargetDependency;
 			target = 06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */;
 			targetProxy = 06A59E371FE8A35200DB40CF /* PBXContainerItemProxy */;
-		};
-		06A59E431FE8A35200DB40CF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */;
-			targetProxy = 06A59E421FE8A35200DB40CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -476,6 +557,11 @@
 				DEVELOPMENT_TEAM = DNXR3S22ZF;
 				INFOPLIST_FILE = SpritekitUIAccessExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					IOKit,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,38 +577,15 @@
 				DEVELOPMENT_TEAM = DNXR3S22ZF;
 				INFOPLIST_FILE = SpritekitUIAccessExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					IOKit,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpritekitUIAccessExample.app/SpritekitUIAccessExample";
-			};
-			name = Release;
-		};
-		06A59E511FE8A35200DB40CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DNXR3S22ZF;
-				INFOPLIST_FILE = SpritekitUIAccessExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpritekitUIAccessExample;
-			};
-			name = Debug;
-		};
-		06A59E521FE8A35200DB40CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DNXR3S22ZF;
-				INFOPLIST_FILE = SpritekitUIAccessExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpritekitUIAccessExample;
 			};
 			name = Release;
 		};
@@ -552,15 +615,6 @@
 			buildConfigurations = (
 				06A59E4E1FE8A35200DB40CF /* Debug */,
 				06A59E4F1FE8A35200DB40CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		06A59E501FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				06A59E511FE8A35200DB40CF /* Debug */,
-				06A59E521FE8A35200DB40CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

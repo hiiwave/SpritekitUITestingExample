@@ -8,8 +8,9 @@
 
 #import <SpriteKit/SpriteKit.h>
 #import <GameplayKit/GameplayKit.h>
+#import "SUEScene.h"
 
-@interface GameScene : SKScene
+@interface GameScene : SUEScene
 
 @property (nonatomic) NSMutableArray<GKEntity *> *entities;
 @property (nonatomic) NSMutableDictionary<NSString*, GKGraph *> *graphs;
