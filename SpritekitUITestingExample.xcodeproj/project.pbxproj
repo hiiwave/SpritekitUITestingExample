@@ -12,9 +12,9 @@
 		063395FC1FE90CB3001918CC /* SUESecondScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 063395FB1FE90CB3001918CC /* SUESecondScene.m */; };
 		0633960E1FEA03A9001918CC /* SpritekitUIAccessExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */; };
 		0633960F1FEA03A9001918CC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0633960D1FEA03A8001918CC /* Info.plist */; };
-		063396191FEA2C0D001918CC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 063396181FEA2C0D001918CC /* Actions.sks */; };
 		0633961C1FEA2C97001918CC /* MyButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633961B1FEA2C97001918CC /* MyButtonNode.m */; };
 		063396201FEA3A8F001918CC /* MyButtonLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633961F1FEA3A8F001918CC /* MyButtonLabel.m */; };
+		063396221FEA43D9001918CC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 063396211FEA43D9001918CC /* Actions.sks */; };
 		06666EA81FE8BB4D00D265CF /* SUEScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 06666EA71FE8BB4D00D265CF /* SUEScene.m */; };
 		06A59E1C1FE8A35100DB40CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A59E1B1FE8A35100DB40CF /* AppDelegate.m */; };
 		06A59E1E1FE8A35100DB40CF /* SUEFirstScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06A59E1D1FE8A35100DB40CF /* SUEFirstScene.sks */; };
@@ -93,17 +93,17 @@
 		063395F11FE909DF001918CC /* SUESecondScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SUESecondScene.sks; sourceTree = "<group>"; };
 		063395FA1FE90CB3001918CC /* SUESecondScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUESecondScene.h; sourceTree = "<group>"; };
 		063395FB1FE90CB3001918CC /* SUESecondScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUESecondScene.m; sourceTree = "<group>"; };
-		063396011FEA0058001918CC /* SpritekitUIAccessExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUIAccessExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		063396011FEA0058001918CC /* SpritekitUITestingExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUITestingExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritekitUIAccessExampleUITests.m; sourceTree = "<group>"; };
 		0633960D1FEA03A8001918CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		063396181FEA2C0D001918CC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Actions.sks; path = SpritekitUIAccessExample/Actions.sks; sourceTree = SOURCE_ROOT; };
 		0633961A1FEA2C97001918CC /* MyButtonNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButtonNode.h; sourceTree = "<group>"; };
 		0633961B1FEA2C97001918CC /* MyButtonNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButtonNode.m; sourceTree = "<group>"; };
 		0633961E1FEA3A8F001918CC /* MyButtonLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButtonLabel.h; sourceTree = "<group>"; };
 		0633961F1FEA3A8F001918CC /* MyButtonLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButtonLabel.m; sourceTree = "<group>"; };
+		063396211FEA43D9001918CC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		06666EA61FE8BB4D00D265CF /* SUEScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUEScene.h; sourceTree = "<group>"; };
 		06666EA71FE8BB4D00D265CF /* SUEScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUEScene.m; sourceTree = "<group>"; };
-		06A59E171FE8A35100DB40CF /* SpritekitUIAccessExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritekitUIAccessExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A59E171FE8A35100DB40CF /* SpritekitUITestingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritekitUITestingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A59E1A1FE8A35100DB40CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06A59E1B1FE8A35100DB40CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		06A59E1D1FE8A35100DB40CF /* SUEFirstScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SUEFirstScene.sks; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		06A59E2D1FE8A35100DB40CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06A59E2F1FE8A35100DB40CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06A59E301FE8A35100DB40CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		06A59E361FE8A35200DB40CF /* SpritekitUIAccessExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUIAccessExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A59E361FE8A35200DB40CF /* SpritekitUITestingExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUITestingExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A59E3C1FE8A35200DB40CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06A59E531FE8A92000DB40CF /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = KIF/KIF.xcodeproj; sourceTree = SOURCE_ROOT; };
 		06A59E6B1FE8A9A400DB40CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -151,13 +151,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0633960B1FEA03A8001918CC /* SpritekitUIAccessExampleUITests */ = {
+		0633960B1FEA03A8001918CC /* SpritekitUITestingExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
 				0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */,
 				0633960D1FEA03A8001918CC /* Info.plist */,
 			);
-			path = SpritekitUIAccessExampleUITests;
+			path = SpritekitUITestingExampleUITests;
 			sourceTree = "<group>";
 		};
 		0633961D1FEA3A73001918CC /* Buttons */ = {
@@ -189,9 +189,9 @@
 		06A59E0E1FE8A35100DB40CF = {
 			isa = PBXGroup;
 			children = (
-				06A59E191FE8A35100DB40CF /* SpritekitUIAccessExample */,
-				06A59E391FE8A35200DB40CF /* SpritekitUIAccessExampleTests */,
-				0633960B1FEA03A8001918CC /* SpritekitUIAccessExampleUITests */,
+				06A59E191FE8A35100DB40CF /* SpritekitUITestingExample */,
+				06A59E391FE8A35200DB40CF /* SpritekitUITestingExampleTests */,
+				0633960B1FEA03A8001918CC /* SpritekitUITestingExampleUITests */,
 				06A59E181FE8A35100DB40CF /* Products */,
 				06A59E691FE8A99500DB40CF /* Frameworks */,
 			);
@@ -200,14 +200,14 @@
 		06A59E181FE8A35100DB40CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06A59E171FE8A35100DB40CF /* SpritekitUIAccessExample.app */,
-				06A59E361FE8A35200DB40CF /* SpritekitUIAccessExampleTests.xctest */,
-				063396011FEA0058001918CC /* SpritekitUIAccessExampleUITests.xctest */,
+				06A59E171FE8A35100DB40CF /* SpritekitUITestingExample.app */,
+				06A59E361FE8A35200DB40CF /* SpritekitUITestingExampleTests.xctest */,
+				063396011FEA0058001918CC /* SpritekitUITestingExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06A59E191FE8A35100DB40CF /* SpritekitUIAccessExample */ = {
+		06A59E191FE8A35100DB40CF /* SpritekitUITestingExample */ = {
 			isa = PBXGroup;
 			children = (
 				06666EB01FE8BB5500D265CF /* Scenes */,
@@ -220,20 +220,20 @@
 				06A59E2A1FE8A35100DB40CF /* Assets.xcassets */,
 				06A59E2C1FE8A35100DB40CF /* LaunchScreen.storyboard */,
 				06A59E2F1FE8A35100DB40CF /* Info.plist */,
-				063396181FEA2C0D001918CC /* Actions.sks */,
+				063396211FEA43D9001918CC /* Actions.sks */,
 				06A59E301FE8A35100DB40CF /* main.m */,
 			);
-			path = SpritekitUIAccessExample;
+			path = SpritekitUITestingExample;
 			sourceTree = "<group>";
 		};
-		06A59E391FE8A35200DB40CF /* SpritekitUIAccessExampleTests */ = {
+		06A59E391FE8A35200DB40CF /* SpritekitUITestingExampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				06A59E531FE8A92000DB40CF /* KIF.xcodeproj */,
 				06A59E3C1FE8A35200DB40CF /* Info.plist */,
 				061ACC271FE8B22A0063BC37 /* KIFSimpleTest.m */,
 			);
-			path = SpritekitUIAccessExampleTests;
+			path = SpritekitUITestingExampleTests;
 			sourceTree = "<group>";
 		};
 		06A59E541FE8A92000DB40CF /* Products */ = {
@@ -261,9 +261,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		063396001FEA0058001918CC /* SpritekitUIAccessExampleUITests */ = {
+		063396001FEA0058001918CC /* SpritekitUITestingExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 063396081FEA0059001918CC /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExampleUITests" */;
+			buildConfigurationList = 063396081FEA0059001918CC /* Build configuration list for PBXNativeTarget "SpritekitUITestingExampleUITests" */;
 			buildPhases = (
 				063395FD1FEA0058001918CC /* Sources */,
 				063395FE1FEA0058001918CC /* Frameworks */,
@@ -274,14 +274,14 @@
 			dependencies = (
 				063396071FEA0059001918CC /* PBXTargetDependency */,
 			);
-			name = SpritekitUIAccessExampleUITests;
+			name = SpritekitUITestingExampleUITests;
 			productName = SpritekitUIAccessExampleUITests;
-			productReference = 063396011FEA0058001918CC /* SpritekitUIAccessExampleUITests.xctest */;
+			productReference = 063396011FEA0058001918CC /* SpritekitUITestingExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */ = {
+		06A59E161FE8A35100DB40CF /* SpritekitUITestingExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06A59E4A1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExample" */;
+			buildConfigurationList = 06A59E4A1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUITestingExample" */;
 			buildPhases = (
 				06A59E131FE8A35100DB40CF /* Sources */,
 				06A59E141FE8A35100DB40CF /* Frameworks */,
@@ -291,14 +291,14 @@
 			);
 			dependencies = (
 			);
-			name = SpritekitUIAccessExample;
+			name = SpritekitUITestingExample;
 			productName = SpritekitUIAccessExample;
-			productReference = 06A59E171FE8A35100DB40CF /* SpritekitUIAccessExample.app */;
+			productReference = 06A59E171FE8A35100DB40CF /* SpritekitUITestingExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		06A59E351FE8A35200DB40CF /* SpritekitUIAccessExampleTests */ = {
+		06A59E351FE8A35200DB40CF /* SpritekitUITestingExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06A59E4D1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExampleTests" */;
+			buildConfigurationList = 06A59E4D1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUITestingExampleTests" */;
 			buildPhases = (
 				06A59E321FE8A35200DB40CF /* Sources */,
 				06A59E331FE8A35200DB40CF /* Frameworks */,
@@ -309,9 +309,9 @@
 			dependencies = (
 				06A59E381FE8A35200DB40CF /* PBXTargetDependency */,
 			);
-			name = SpritekitUIAccessExampleTests;
+			name = SpritekitUITestingExampleTests;
 			productName = SpritekitUIAccessExampleTests;
-			productReference = 06A59E361FE8A35200DB40CF /* SpritekitUIAccessExampleTests.xctest */;
+			productReference = 06A59E361FE8A35200DB40CF /* SpritekitUITestingExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -339,7 +339,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06A59E121FE8A35100DB40CF /* Build configuration list for PBXProject "SpritekitUIAccessExample" */;
+			buildConfigurationList = 06A59E121FE8A35100DB40CF /* Build configuration list for PBXProject "SpritekitUITestingExample" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -358,9 +358,9 @@
 			);
 			projectRoot = "";
 			targets = (
-				06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */,
-				06A59E351FE8A35200DB40CF /* SpritekitUIAccessExampleTests */,
-				063396001FEA0058001918CC /* SpritekitUIAccessExampleUITests */,
+				06A59E161FE8A35100DB40CF /* SpritekitUITestingExample */,
+				06A59E351FE8A35200DB40CF /* SpritekitUITestingExampleTests */,
+				063396001FEA0058001918CC /* SpritekitUITestingExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -423,8 +423,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				063396221FEA43D9001918CC /* Actions.sks in Resources */,
 				06A59E291FE8A35100DB40CF /* Main.storyboard in Resources */,
-				063396191FEA2C0D001918CC /* Actions.sks in Resources */,
 				06A59E1E1FE8A35100DB40CF /* SUEFirstScene.sks in Resources */,
 				063395F21FE909DF001918CC /* SUESecondScene.sks in Resources */,
 				06A59E2B1FE8A35100DB40CF /* Assets.xcassets in Resources */,
@@ -478,12 +478,12 @@
 /* Begin PBXTargetDependency section */
 		063396071FEA0059001918CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */;
+			target = 06A59E161FE8A35100DB40CF /* SpritekitUITestingExample */;
 			targetProxy = 063396061FEA0059001918CC /* PBXContainerItemProxy */;
 		};
 		06A59E381FE8A35200DB40CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06A59E161FE8A35100DB40CF /* SpritekitUIAccessExample */;
+			target = 06A59E161FE8A35100DB40CF /* SpritekitUITestingExample */;
 			targetProxy = 06A59E371FE8A35200DB40CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -646,9 +646,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNXR3S22ZF;
-				INFOPLIST_FILE = SpritekitUIAccessExample/Info.plist;
+				INFOPLIST_FILE = SpritekitUITestingExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExample;
+				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUITestingExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -660,9 +660,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNXR3S22ZF;
-				INFOPLIST_FILE = SpritekitUIAccessExample/Info.plist;
+				INFOPLIST_FILE = SpritekitUITestingExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExample;
+				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUITestingExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -684,7 +684,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpritekitUIAccessExample.app/SpritekitUIAccessExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpritekitUITestingExample.app/SpritekitUITestingExample";
 			};
 			name = Debug;
 		};
@@ -704,14 +704,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpritekitUIAccessExample.app/SpritekitUIAccessExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpritekitUITestingExample.app/SpritekitUITestingExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		063396081FEA0059001918CC /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExampleUITests" */ = {
+		063396081FEA0059001918CC /* Build configuration list for PBXNativeTarget "SpritekitUITestingExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				063396091FEA0059001918CC /* Debug */,
@@ -720,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06A59E121FE8A35100DB40CF /* Build configuration list for PBXProject "SpritekitUIAccessExample" */ = {
+		06A59E121FE8A35100DB40CF /* Build configuration list for PBXProject "SpritekitUITestingExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06A59E481FE8A35200DB40CF /* Debug */,
@@ -729,7 +729,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06A59E4A1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExample" */ = {
+		06A59E4A1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUITestingExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06A59E4B1FE8A35200DB40CF /* Debug */,
@@ -738,7 +738,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06A59E4D1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUIAccessExampleTests" */ = {
+		06A59E4D1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUITestingExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06A59E4E1FE8A35200DB40CF /* Debug */,
