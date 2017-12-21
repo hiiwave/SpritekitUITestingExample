@@ -10,7 +10,7 @@
 		061ACC281FE8B22A0063BC37 /* KIFSimpleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 061ACC271FE8B22A0063BC37 /* KIFSimpleTest.m */; };
 		063395F21FE909DF001918CC /* SUESecondScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 063395F11FE909DF001918CC /* SUESecondScene.sks */; };
 		063395FC1FE90CB3001918CC /* SUESecondScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 063395FB1FE90CB3001918CC /* SUESecondScene.m */; };
-		0633960E1FEA03A9001918CC /* SpritekitUIAccessExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */; };
+		0633960E1FEA03A9001918CC /* SpritekitUITestingExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633960C1FEA03A8001918CC /* SpritekitUITestingExampleUITests.m */; };
 		0633960F1FEA03A9001918CC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0633960D1FEA03A8001918CC /* Info.plist */; };
 		0633961C1FEA2C97001918CC /* MyButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633961B1FEA2C97001918CC /* MyButtonNode.m */; };
 		063396201FEA3A8F001918CC /* MyButtonLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633961F1FEA3A8F001918CC /* MyButtonLabel.m */; };
@@ -94,7 +94,7 @@
 		063395FA1FE90CB3001918CC /* SUESecondScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUESecondScene.h; sourceTree = "<group>"; };
 		063395FB1FE90CB3001918CC /* SUESecondScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUESecondScene.m; sourceTree = "<group>"; };
 		063396011FEA0058001918CC /* SpritekitUITestingExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUITestingExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritekitUIAccessExampleUITests.m; sourceTree = "<group>"; };
+		0633960C1FEA03A8001918CC /* SpritekitUITestingExampleUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritekitUITestingExampleUITests.m; sourceTree = "<group>"; };
 		0633960D1FEA03A8001918CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0633961A1FEA2C97001918CC /* MyButtonNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButtonNode.h; sourceTree = "<group>"; };
 		0633961B1FEA2C97001918CC /* MyButtonNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButtonNode.m; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		06A59E2D1FE8A35100DB40CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06A59E2F1FE8A35100DB40CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06A59E301FE8A35100DB40CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		06A59E361FE8A35200DB40CF /* SpritekitUITestingExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUITestingExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A59E361FE8A35200DB40CF /* SpritekitUITestingExampleKIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritekitUITestingExampleKIFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A59E3C1FE8A35200DB40CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06A59E531FE8A92000DB40CF /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = KIF/KIF.xcodeproj; sourceTree = SOURCE_ROOT; };
 		06A59E6B1FE8A9A400DB40CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -154,7 +154,7 @@
 		0633960B1FEA03A8001918CC /* SpritekitUITestingExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0633960C1FEA03A8001918CC /* SpritekitUIAccessExampleUITests.m */,
+				0633960C1FEA03A8001918CC /* SpritekitUITestingExampleUITests.m */,
 				0633960D1FEA03A8001918CC /* Info.plist */,
 			);
 			path = SpritekitUITestingExampleUITests;
@@ -190,7 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				06A59E191FE8A35100DB40CF /* SpritekitUITestingExample */,
-				06A59E391FE8A35200DB40CF /* SpritekitUITestingExampleTests */,
+				06A59E391FE8A35200DB40CF /* SpritekitUITestingExampleKIFTests */,
 				0633960B1FEA03A8001918CC /* SpritekitUITestingExampleUITests */,
 				06A59E181FE8A35100DB40CF /* Products */,
 				06A59E691FE8A99500DB40CF /* Frameworks */,
@@ -201,7 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				06A59E171FE8A35100DB40CF /* SpritekitUITestingExample.app */,
-				06A59E361FE8A35200DB40CF /* SpritekitUITestingExampleTests.xctest */,
+				06A59E361FE8A35200DB40CF /* SpritekitUITestingExampleKIFTests.xctest */,
 				063396011FEA0058001918CC /* SpritekitUITestingExampleUITests.xctest */,
 			);
 			name = Products;
@@ -226,14 +226,14 @@
 			path = SpritekitUITestingExample;
 			sourceTree = "<group>";
 		};
-		06A59E391FE8A35200DB40CF /* SpritekitUITestingExampleTests */ = {
+		06A59E391FE8A35200DB40CF /* SpritekitUITestingExampleKIFTests */ = {
 			isa = PBXGroup;
 			children = (
 				06A59E531FE8A92000DB40CF /* KIF.xcodeproj */,
 				06A59E3C1FE8A35200DB40CF /* Info.plist */,
 				061ACC271FE8B22A0063BC37 /* KIFSimpleTest.m */,
 			);
-			path = SpritekitUITestingExampleTests;
+			path = SpritekitUITestingExampleKIFTests;
 			sourceTree = "<group>";
 		};
 		06A59E541FE8A92000DB40CF /* Products */ = {
@@ -296,9 +296,9 @@
 			productReference = 06A59E171FE8A35100DB40CF /* SpritekitUITestingExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		06A59E351FE8A35200DB40CF /* SpritekitUITestingExampleTests */ = {
+		06A59E351FE8A35200DB40CF /* SpritekitUITestingExampleKIFTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06A59E4D1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUITestingExampleTests" */;
+			buildConfigurationList = 06A59E4D1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUITestingExampleKIFTests" */;
 			buildPhases = (
 				06A59E321FE8A35200DB40CF /* Sources */,
 				06A59E331FE8A35200DB40CF /* Frameworks */,
@@ -309,9 +309,9 @@
 			dependencies = (
 				06A59E381FE8A35200DB40CF /* PBXTargetDependency */,
 			);
-			name = SpritekitUITestingExampleTests;
+			name = SpritekitUITestingExampleKIFTests;
 			productName = SpritekitUIAccessExampleTests;
-			productReference = 06A59E361FE8A35200DB40CF /* SpritekitUITestingExampleTests.xctest */;
+			productReference = 06A59E361FE8A35200DB40CF /* SpritekitUITestingExampleKIFTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -359,7 +359,7 @@
 			projectRoot = "";
 			targets = (
 				06A59E161FE8A35100DB40CF /* SpritekitUITestingExample */,
-				06A59E351FE8A35200DB40CF /* SpritekitUITestingExampleTests */,
+				06A59E351FE8A35200DB40CF /* SpritekitUITestingExampleKIFTests */,
 				063396001FEA0058001918CC /* SpritekitUITestingExampleUITests */,
 			);
 		};
@@ -446,7 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0633960E1FEA03A9001918CC /* SpritekitUIAccessExampleUITests.m in Sources */,
+				0633960E1FEA03A9001918CC /* SpritekitUITestingExampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,12 +513,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNXR3S22ZF;
-				INFOPLIST_FILE = SpritekitUIAccessExampleUITests/Info.plist;
+				INFOPLIST_FILE = SpritekitUITestingExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUITestingExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpritekitUIAccessExample;
+				TEST_TARGET_NAME = SpritekitUITestingExample;
 			};
 			name = Debug;
 		};
@@ -527,12 +528,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNXR3S22ZF;
-				INFOPLIST_FILE = SpritekitUIAccessExampleUITests/Info.plist;
+				INFOPLIST_FILE = SpritekitUITestingExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUITestingExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpritekitUIAccessExample;
+				TEST_TARGET_NAME = SpritekitUITestingExample;
 			};
 			name = Release;
 		};
@@ -674,14 +676,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNXR3S22ZF;
-				INFOPLIST_FILE = SpritekitUIAccessExampleTests/Info.plist;
+				INFOPLIST_FILE = SpritekitUITestingExampleKIFTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
 					IOKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUITestingExampleKIFTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpritekitUITestingExample.app/SpritekitUITestingExample";
@@ -694,14 +696,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNXR3S22ZF;
-				INFOPLIST_FILE = SpritekitUIAccessExampleTests/Info.plist;
+				INFOPLIST_FILE = SpritekitUITestingExampleKIFTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
 					IOKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUIAccessExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = pong.SpritekitUITestingExampleKIFTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpritekitUITestingExample.app/SpritekitUITestingExample";
@@ -738,7 +740,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06A59E4D1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUITestingExampleTests" */ = {
+		06A59E4D1FE8A35200DB40CF /* Build configuration list for PBXNativeTarget "SpritekitUITestingExampleKIFTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06A59E4E1FE8A35200DB40CF /* Debug */,

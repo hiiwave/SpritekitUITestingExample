@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface SpritekitUIAccessExampleUITests : XCTestCase
+@interface SpritekitUITestingExampleUITests : XCTestCase
 
 @end
 
-@implementation SpritekitUIAccessExampleUITests
+@implementation SpritekitUITestingExampleUITests
 
 - (void)setUp {
   [super setUp];
